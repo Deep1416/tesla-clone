@@ -1,13 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 import { Fade } from "react-awesome-reveal";
-function Section({ title, desc, leftBtnText, rightBtnText, backgroundImage }) {
+function Section({ title, desc, leftBtnText, rightBtnText, backgroundImage ,tax ,lastDisc,reenigeerd,details}) {
+  console.log(details);
   return (
     <Wrap BgImage={backgroundImage}>
       <Fade down>
         <ItemText>
-          <h1>{title}</h1>
-          <p>{desc}</p>
+          <h1 className= "text-4xl">{reenigeerd}</h1>
+          <h1 className="text-4xl tracking-wider">{title}</h1>
+          <p className="text-xl">{desc}</p>
+          <p className="text-sm">{tax}</p>
         </ItemText>
       </Fade>
       <Buttons>
@@ -17,8 +20,9 @@ function Section({ title, desc, leftBtnText, rightBtnText, backgroundImage }) {
             {rightBtnText && <ReightButton>{rightBtnText}</ReightButton>}
           </ButtonGroup>
         </Fade>
-
-        <DownArrow src="/images/down-arrow.svg" />
+        
+        {/* <DownArrow src="/images/down-arrow.svg" /> */}
+        <DownDisc >{lastDisc} </DownDisc>
       </Buttons>
     </Wrap>
   );
@@ -45,6 +49,12 @@ const ItemText = styled.div`
   padding-top: 15vh;
   text-align: center;
   z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  
+  
 `;
 
 const ButtonGroup = styled.div`
@@ -76,11 +86,13 @@ const ReightButton = styled(LeftButton)`
   color: black;
 `;
 
-const DownArrow = styled.img`
+const DownDisc = styled.div`
+  color:black;
   height: 40px;
   text-align: center;
   overflow-x: hidden;
   animation: animateDown infinite 1.5s;
+  font-size: 12px;
 `;
 
 const Buttons = styled.div``;

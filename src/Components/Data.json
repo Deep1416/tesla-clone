@@ -1,0 +1,69 @@
+[
+  {
+    "title": "Model Y",
+    "price": "From $36,490*",
+    "tax": "After Federal Tax Credit",
+    "btnLeft": "Shop Available",
+    "rightbtn": "Demo Drive",
+    "about": "*Price before incentives is $43,990, excluding taxes and fees. Subject to change.",
+    "backgroundImage": "model-y.jpg"
+  },
+  {
+    "reenigeerd": "Reengineered",
+    "title": "Model 3",
+    "tax": "Lease starting at $329/mo*",
+    "btnLeft": "Custom Order",
+    "rightbtn": "Demo Drive",
+    "about": "*Excludes taxes and fees with price subject to change. Available in select states.",
+    "details": "See Details",
+    "backgroundImage": "model-3.jpg"
+  },
+  {
+    "title": "Model X",
+    "price": "From $68,590*",
+    "tax": "After Federal Tax Credit & Est. Gas Savings",
+    "btnLeft": "Custom Order",
+    "rightbtn": "Demo Drive",
+    "about": "*Price before incentives and savings is $79,990, excluding taxes and fees.Subject to change.",
+    "details": "Learn about est. gas savings.",
+    "backgroundImage": "model-x.jpg"
+  },
+  {
+    "title": "Model S",
+    "price": "From $71,090*",
+    "tax": "After Est. Gas Savings",
+    "btnLeft": "Custom Order",
+    "rightbtn": "Demo Drive",
+    "about": "*Price before savings is $74,990, excluding taxes and fees. Subject to change.",
+    "details": "Learn about est. gas savings.",
+    "backgroundImage": "model-s.jpg"
+  },
+  {
+    "btnLeft": "Order Now",
+    "rightbtn": "Learn More"
+  },
+  {
+    "title": "Solar Panels",
+    "price": "Schedule a Virtual Consultation",
+    "btnLeft": "Order Now",
+    "rightbtn": "Learn More",
+    "backgroundImage": "solar-panel.jpg"
+  },
+  {
+    "title": "Solar Roof",
+    "price": "Produce Clean Energy From Your Roof",
+    "btnLeft": "Order Now",
+    "rightbtn": "Learn More",
+    "backgroundImage": "solar-roof.jpg"
+  },
+  {
+    "title": "Powerwall",
+    "btnLeft": "Order Now",
+    "rightbtn": "Learn More"
+  },
+  {
+    "title": "Accessories",
+    "btnLeft": "Shop Now",
+    "backgroundImage": "accessories.jpg"
+  }
+]
